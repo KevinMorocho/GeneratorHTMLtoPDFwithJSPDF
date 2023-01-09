@@ -3,6 +3,7 @@ var pdf = new jsPDF({
   orientation: "p",
   unit: "mm",
   format: "a4",
+  compress: true
 });
 // source can be HTML-formatted string, or a reference
 // to an actual DOM element from which the text will be scraped.
